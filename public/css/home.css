@@ -67,6 +67,13 @@
 
 .div__articles__h2{
     display: none;
+    color: var(--color-gris-oscuro);
+}
+
+.div__articles__h2__mobile{
+    display: initial;
+    color: var(--color-gris-oscuro);
+    font-weight: 450;
 }
 
 .h4__home{
