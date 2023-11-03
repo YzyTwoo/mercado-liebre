@@ -43,6 +43,8 @@
 }
 
 .article__img{
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -88,7 +90,21 @@
     font-size: 16px;
     padding: 5px;
     width: 32px;
-    border: 2px solid #39b54a;
+    border: 1px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
+}
+
+.fa-truck{
+display: block;
+font-size: 14px;
+padding: 6px;
+width: 30px;
+height: 28px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: relative;
+left: 80%;
+bottom: 15px;
 }
