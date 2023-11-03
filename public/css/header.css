@@ -1,0 +1,56 @@
+#header__home{
+    background-color: #EAC926;
+    border-bottom: 1px solid #666;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+#logo{
+    width: 45%;
+    height: 100%;
+    margin: 20px 35px;
+}
+
+.search{
+    margin-left: 40px;
+    margin-right: 200px;
+}
+.search input{
+    width: 160px;
+}
+.search button{
+    width: 22px;
+}
+
+button{
+    width: 100%;
+}
+
+.p__header{
+    margin-top: 5%;
+    margin-left: 7%;
+    padding-bottom: 20px;
+}
+
+#nav1__home{
+    padding-bottom: 20px;
+}
+
+#nav2__home{
+    padding-bottom: 20px;
+}
+
+.burger-menu{
+    display: grid;
+    place-content: center;
+    background-color: #1259c3;
+    width: 10%;
+    height: 35px;
+    border-radius: 6px 6px 6px 6px;
+    margin: 0px auto;
+}
+
+.burgerboton{
+    color: #ffffff;
+    font-size: 20px;
+}

@@ -1,0 +1,26 @@
+*{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-celeste: #1259c3;
+    --color-azul: #03264c;
+    --color-amarillo: #EAC926;
+    --color-gris-claro: #ebebeb;
+    --color-gris-oscuro: #666;
+    --color-verde: #39b54a;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+a:hover{
+    color: #1259c3;
+}
