@@ -1,0 +1,9 @@
+.section__login{
+    display: flex;
+    justify-content: center;
+}
+
+.form__login{
+    display: flex;
+    flex-direction: column;
+}

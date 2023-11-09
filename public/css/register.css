@@ -1,0 +1,14 @@
+.section__register{
+    display: flex;
+    justify-content: center;
+}
+
+.form__register{
+    display: flex;
+    flex-direction: column;
+}
+
+.div__botones__register{
+    display: flex;
+    justify-content: space-between;
+}
