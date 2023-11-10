@@ -2,13 +2,51 @@
     display: flex;
     justify-content: center;
 }
-
+/* FORMULARIO */
 .form__register{
     display: flex;
     flex-direction: column;
+    border: none;
 }
-
+/* CAJA de botones (ENVIAR - RESTABLECER) */
 .div__botones__register{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+/* BOTONES de (ENVIAR - RESTABLECER) */
+.boton__register{
+    margin: 15px 0px;
+    padding: 10px;
+    background-color: var(--color-celeste);
+    color: var(--color-blanco);
+    border: none;
+}
+/* INPUT del formulario de REGISTER  */
+.input__form__register{
+    padding: 10px; 
+    margin: 20px 0px; 
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+}
+/* LABEL del formulario de REGISTER  */
+.label__form__register{
+    font-size: 18px;
+    font-weight: 600;
+}
+/* CAJA de INPUT'S de perfil de usuario (Type: RADIO)  */
+.div__form__register__perfil-usuario{
+    display: flex;
+    justify-content: space-around;
+}
+/* LABEL (Foto de usuario:) */
+.label__form__register__fto-usuario{
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* INPUT - FOTO DE USUARIO (Type: file accept: .jpg .png */
+.input__form__register__fto-usuario{
+    margin-bottom: 15px;
 }

@@ -42,37 +42,40 @@
     <main>
         <section class="section__register">
             <form class="form__register" action="" method="POST">
-                <input type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Nombre y apellido">
-
-                <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
-
-                <input type="email" name="Email" id="email" placeholder="E-mail">
-
-                <label for="nacimiento">Fecha de nacimiento:</label>
-                <input type="date" name="nacimiento" id="nacimiento" min="1920-01-01" max="2005-12-31">
-
-                <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
-
-                <label for="">Perfil del usuario</label>
-                <p><input type="radio" name="perfil-usuario" value="Comprador"> Comprador</p>
-                <p><input type="radio" name="perfil-usuario" value="Vendedor"> Vendedor</p>
-
-                <label for="intereses">Intereses</label>
-                <p><input type="checkbox" name="electro" value="electro"> Electro</p>
-                <p><input type="checkbox" name="electro" value="electro"> Moda</p>
-                <p><input type="checkbox" name="electro" value="electro"> Hogar</p>
-                <p><input type="checkbox" name="electro" value="electro"> Juguetería</p>
-                <p><input type="checkbox" name="electro" value="electro"> Vida sana</p>
-
-                <label for="">Foto de usuario:</label>
-                <input type="file" name="avatar" accept=".jpg .png">
-
-                <input type="password" name="password" id="password" placeholder="Contraseña">
-                <input type="password" name="password" id="password" placeholder="Confirmar contraseña">
-
+                <!-- NOMBRE Y APELLIDO -->
+                <input class="input__form__register" type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Nombre y apellido">
+                <!-- NOMBRE DE USUARIO -->
+                <input class="input__form__register" type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+                <!-- E-MAIL  -->
+                <input class="input__form__register" type="email" name="Email" id="email" placeholder="E-mail">
+                <!-- FECHA DE NACIMIENTO -->
+                <label class="label__form__register" for="nacimiento">Fecha de nacimiento:</label>
+                <input class="input__form__register" type="date" name="nacimiento" id="nacimiento" min="1920-01-01" max="2005-12-31">
+                <!-- DOMICILIO -->
+                <input class="input__form__register" type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+                <!-- PERFIL DE USUARIO ( COMPRADOR / VENDEDOR) -->
+                <label class="label__form__register" for="">Perfil del usuario</label>
+                <div class="div__form__register__perfil-usuario">
+                <p><input class="input__form__register" type="radio" name="perfil-usuario" value="Comprador"> Comprador</p>
+                <p><input class="input__form__register" type="radio" name="perfil-usuario" value="Vendedor"> Vendedor</p>
+                </div>
+                <!-- INTERESES ( CHECKBOX ) -->
+                <label class="label__form__register" for="intereses">Intereses</label>
+                <p><input class="input__form__register" type="checkbox" name="electro" value="electro"> Electro</p>
+                <p><input class="input__form__register" type="checkbox" name="electro" value="electro"> Moda</p>
+                <p><input class="input__form__register" type="checkbox" name="electro" value="electro"> Hogar</p>
+                <p><input class="input__form__register" type="checkbox" name="electro" value="electro"> Juguetería</p>
+                <p><input class="input__form__register" type="checkbox" name="electro" value="electro"> Vida sana</p>
+                <!-- FOTO DE USUARIO -->
+                <label class="label__form__register__fto-usuario" for="">Foto de usuario:</label>
+                <input class="input__form__register__fto-usuario" type="file" name="avatar" accept=".jpg .png">
+                <!-- CONTRASEÑA -->
+                <input class="input__form__register" type="password" name="password" id="password" placeholder="Contraseña">
+                <input class="input__form__register" type="password" name="password" id="password" placeholder="Confirmar contraseña">
+                <!-- BOTON DE REGISTRO -->
                 <div class="div__botones__register">
-                    <input type="reset" name="enviar" id="reset">
-                    <input  type="submit" name="enviar" id="enviar">
+                    <button class="boton__register" type="submit">Enviar</button>
+                    <button class="boton__register" type="reset">Restablecer</button>
                 </div>
             </form>
         </section>

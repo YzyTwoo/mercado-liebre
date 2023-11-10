@@ -6,12 +6,13 @@
 }
 
 :root{
-    --color-celeste: #1259c3;
-    --color-azul: #03264c;
-    --color-amarillo: #EAC926;
-    --color-gris-claro: #ebebeb;
-    --color-gris-oscuro: #666;
-    --color-verde: #39b54a;
+    --color-blanco : #fff;
+    --color-celeste : #1259c3;
+    --color-azul : #03264c;
+    --color-amarillo :  #EAC926;
+    --color-gris-claro : #ebebeb;
+    --color-gris-oscuro : #666;
+    --color-verde : #39b54a;
 }
 
 a{

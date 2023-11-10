@@ -6,4 +6,24 @@
 .form__login{
     display: flex;
     flex-direction: column;
+    width: 70%;
 }
+/*  INPUT del formulario de LOGIN */
+.input__form__login{
+    padding: 10px; 
+    margin: 20px 0px; 
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+}
+/* BOTON del formulario de LOGIN */
+.button__form__login{
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: var(--color-celeste);
+    color: var(--color-gris-claro);
+    border: none;
+}
+
