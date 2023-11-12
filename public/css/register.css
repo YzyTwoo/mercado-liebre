@@ -15,12 +15,34 @@
     margin: 10px 0px;
 }
 /* BOTONES de (ENVIAR - RESTABLECER) */
-.boton__register{
+.boton__register-enviar{
     margin: 15px 0px;
     padding: 10px;
     background-color: var(--color-celeste);
     color: var(--color-blanco);
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.boton__register-enviar:hover{
+    background-color: var(--color-azul-pg);
+    opacity: 1;
+}
+.boton__register-borrar{
+    margin: 15px 0px;
+    padding: 10px;
+    background-color: var(--color-blanco);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.boton__register-borrar:hover{
+    background-color: red;
+    color: var(--color-blanco);
+    transition: all 370ms;
 }
 /* INPUT del formulario de REGISTER  */
 .input__form__register{

@@ -13,6 +13,7 @@
     --color-gris-claro : #ebebeb;
     --color-gris-oscuro : #666;
     --color-verde : #39b54a;
+    --color-azul-pg : #0022AA;
 }
 
 a{
@@ -23,5 +24,6 @@ a{
 }
 
 a:hover{
-    color: #1259c3;
+    color:var(--color-azul-pg);
+    transition: all 150ms;
 }
