@@ -49,6 +49,7 @@
 }
 
 .div__articles:hover{
+    cursor: default;
     .div__articles__h2{
         opacity: 1;
     }
@@ -79,9 +80,9 @@
 }
 
 .div__articles__h2{
+    display: none;
     color: var(--color-gris-oscuro);
-    font-size: small;
-    margin-top: 10px;
+    font-size: 16px;
     opacity: 0;
     transition: all 550ms ;
 }
@@ -106,12 +107,13 @@ font-size: 14px;
 padding: 6px;
 width: 30px;
 height: 28px;
-border: 1px solid #39b54a;
-background-color: #FFF;
+border: 1px solid var(--color-verde);
+background-color: var(--color-blanco);
 border-radius: 50%;
 position: relative;
 left: 80%;
 bottom: 15px;
+transition: 0.6s;
 }
 
 .fa-truck:hover{
