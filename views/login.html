@@ -41,13 +41,13 @@
 
     <main>
         <section class="section__login">
-            <form class="form__login" action="" method="POST">
+            <form class="form__login" action="/ingresa" method="POST">
                 <!-- NOMBRE DE USUARIO -->
-                <input class="input__form__login" type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+                <input class="input__form__login" type="text" name="usuario" id="usuario" placeholder="Nombre de usuario" required>
                 <!-- CONTRASEÑA -->
-                <input class="input__form__login" type="password" name="password" id="password" placeholder="Contraseña">
+                <input class="input__form__login" type="password" name="password" id="password" placeholder="Contraseña" required>
                 <!-- BOTON ENVIAR -->
-                <button class="button__form__login" type="submit">Enviar</button>
+                <button class="button__form__login" type="submit" value="Enviar">Enviar</button>
             </form>
         </section>
     </main>
