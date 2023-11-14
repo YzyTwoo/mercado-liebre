@@ -31,11 +31,23 @@
     font-size: 50px;
     color:var(--color-celeste);
     transition: 0.6s;
+    position: relative;
 }
+
 .icon__footer:hover{
     color: var(--color-amarillo);
     transition: all 300ms;
+    animation-name: move-card;
+    animation-duration: 1s;
+    /* animation-timing-function: ease; */
 }
+
+@keyframes move-card{
+    0% {}
+    50% {font-size: 60px;}
+    100% {}
+}
+
 #copyright{
     color: var(--color-gris-oscuro);
     width: 100%;
@@ -71,6 +83,17 @@
     color: #ffffff;
 }
 
+.h2__home:hover{
+    cursor: default;
+    animation-name: zoom;
+    animation-duration: 900ms;
+}
+
+@keyframes zoom{
+    0% {}
+    50% {font-size: 28px;}
+    100% {}
+}
 .article__productos{
     border-top: 1px solid #ebebeb;
 }
